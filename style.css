@@ -14,8 +14,13 @@ img {
     width: 100px;
 }
 
-.hero {
-    text-align: center;
-    background: url("images/toronto.jpg");
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/downtown-akron.jpeg");
     background-size: cover;
+    width: 100vw;
+    height: 80vh;
 }
