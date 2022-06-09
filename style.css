@@ -2,12 +2,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'PT Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     color: #2b2d42;
 }
 
-h1, h3 {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
+    
+}
+
+h1, h2 {
+    color: #f1faee;
+    border-radius: 10px; 
+}
+
+h1 {
+    font-size: 32px;
+    background: #1d3557;
+    padding: 5px 12px; 
+}
+
+h2 {
+    background: #457b9d;
+    padding: 5px 30px;
+    margin: 0 20px;
 }
 
 img {
@@ -19,7 +37,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("images/downtown-akron.jpeg");
+    background-image: url("images/akron.jpg");
     background-size: cover;
     width: 100vw;
     height: 80vh;
