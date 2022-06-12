@@ -96,3 +96,41 @@ h3 {
 .guide-text {
     padding: 0 20px;
 }
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  .activities-section {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hiking, .concerts, .theater {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .guide-section {
+    margin: 30px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .guide-text {
+    padding: 5px;
+    font-size: smaller;
+  }
+}
