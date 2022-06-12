@@ -71,3 +71,28 @@ h3 {
     text-align: center;
     width: 30%;
 }
+
+.guide-section {
+    margin: 80px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 40px;
+    background-color: #457b9d;
+    border-radius: 10px;
+    color: #f1faee
+}
+
+.card img {
+    padding: 0 30px;
+    margin-bottom: 0;
+}
+
+.guide-text {
+    padding: 0 20px;
+}
